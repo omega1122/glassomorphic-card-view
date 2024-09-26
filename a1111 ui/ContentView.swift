@@ -19,7 +19,7 @@ struct ContentView: View {
                     .fill(LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.3), Color.white.opacity(0.1)]), startPoint: .topLeading, endPoint: .bottomTrailing))
               
                    
-                .frame(width: 350,height: 240)
+                .frame(width: 350,height: 241)
                 .background(Color.white.opacity(0.01))
                 .blur(radius: 2)
                 
