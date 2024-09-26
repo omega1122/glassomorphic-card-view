@@ -19,7 +19,7 @@ struct ContentView: View {
                     .fill(LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.3), Color.white.opacity(0.1)]), startPoint: .topLeading, endPoint: .bottomTrailing))
               
                    
-                .frame(width: 350,height: 240)
+                .frame(width: 350,height: 241)
                 .background(Color.white.opacity(0.01))
                 .blur(radius: 2)
                 
@@ -45,6 +45,7 @@ struct ContentView: View {
                                     .foregroundColor(.white)
                                 
                                 Text("BANK OF INDIA")
+                                
                                     .font(.headline)
                                     .foregroundColor(.white)
                                 
@@ -72,12 +73,18 @@ struct ContentView: View {
                             HStack{
                                 Text("    Devender")
                                     .foregroundColor(.white)
+                             
                                 VStack{
                                     Text("       Valid Till")
                                         .foregroundColor(.white)
                                         .font(.system(size: 12))
                                         .padding(.leading,97)
                                     Text("                                    3/25")
+                                    
+                                        .font(.system(size: 12))
+                                        .foregroundColor(.white)
+                                    Text("                                    3/25")
+                                    
                                         .font(.system(size: 12))
                                         .foregroundColor(.white)
                                 }
