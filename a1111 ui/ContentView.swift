@@ -45,6 +45,7 @@ struct ContentView: View {
                                     .foregroundColor(.white)
                                 
                                 Text("BANK OF INDIA")
+                                
                                     .font(.headline)
                                     .foregroundColor(.white)
                                 
@@ -72,12 +73,18 @@ struct ContentView: View {
                             HStack{
                                 Text("    Devender")
                                     .foregroundColor(.white)
+                             
                                 VStack{
                                     Text("       Valid Till")
                                         .foregroundColor(.white)
                                         .font(.system(size: 12))
                                         .padding(.leading,97)
                                     Text("                                    3/25")
+                                    
+                                        .font(.system(size: 12))
+                                        .foregroundColor(.white)
+                                    Text("                                    3/25")
+                                    
                                         .font(.system(size: 12))
                                         .foregroundColor(.white)
                                 }
